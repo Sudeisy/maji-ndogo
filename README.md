@@ -23,15 +23,26 @@ Sales Data: The primary dataset used for this analysis is the "sales_data.csv" f
 
 In the initial preparation phase, we performed the following tasks:
 1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
+   - Imported dataset and split columns on semicolon.
+3. Handling missing values.
+   ```sheets
+   #count all rows to identify missing values and solved by filter and splitting columns
+   =COUNTA(A2:P2)
+   ```
+5. Data cleaning and formatting.
+   - Added new columns such as, year difference grouped by countries, annual rates of exchange by area and region, and rounded national population.
 
 ### Exploratory Data Analysis
 
-EDA involved edploring the sales data to answer key questions, such as:
+EDA involved exploring the md_water_services data to answer key questions, such as:
 
-- What is the overall sales trend?
-- Which products are top sellers?
+- What type of water sources need to be improved and where?
+- Who are we doing this for and where are they?
+- What do we need to do, and where do we need to do it?
+- What will this cost?
+- How far is the project?
+- How much money has been spent so far?
+- Where to cut costs.
 
 ### Data Analysis
 
